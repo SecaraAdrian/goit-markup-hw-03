@@ -98,10 +98,8 @@ color: var(--NAVY-BLUE);
     color: #ffffff;
 } 
 /*buttons section*/
-.navigation-link{
-    padding: 24px 0 24px 0;
-}
 .navigation-list{
+    padding-top: 24px și padding-bottom: 24px;
     display: flex;
     gap: 40px;
 
