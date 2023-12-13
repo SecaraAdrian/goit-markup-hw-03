@@ -66,15 +66,16 @@ ul{
     color: #404bbf;
 }
 .list{
+    display: flex;
+    gap: 40px;
     list-style: none;
 font-weight: 500;
 color: var(--NAVY-BLUE);
 }
 .address-container {
     font-style: normal;
-    display: flex;
-    gap: 40px;
 }
+
 .address-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -120,6 +121,7 @@ color: var(--NAVY-BLUE);
     color: #fff;
     background-color: #404bbf;
 }
+
 /*Button - first section*/
 
 .button {
@@ -167,6 +169,7 @@ body {
     background-color:var(--WHITE);
 }
 .nav-link {
+    padding: 24px;
     margin: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
