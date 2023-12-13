@@ -7,6 +7,7 @@
         --OCEAN: #404BBF;
 }
 .logo {
+    padding: 24px 0px;
     margin-right: 76px;
     color: var(--IRIS);         
         font-size: 18px;
@@ -40,7 +41,6 @@
     display: flex;
 }
 .main-navigation-container{
-    padding: 24px 0;
     display: flex;
     gap: 40px;
     align-items: center;
@@ -100,7 +100,6 @@ color: var(--NAVY-BLUE);
 } 
 /*buttons section*/
 .navigation-list{
-    padding: 24px 0;
     display: flex;
     gap: 40px;
 
