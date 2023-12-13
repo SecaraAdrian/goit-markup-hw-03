@@ -108,6 +108,7 @@ color: var(--NAVY-BLUE);
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+    width: calc((100% - 48px) / 3);
 }
 .navigation-list{
     display: flex;
@@ -234,7 +235,7 @@ body {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color:var(--NAVY-BLUE)
+        color:var(--NAVY-BLUE);
         margin-bottom: 8px;
 }
 /* index section one*/
