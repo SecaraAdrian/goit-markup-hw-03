@@ -25,7 +25,16 @@
         line-height: 1.17;
         letter-spacing: 0.03em
 }
-    
+.top-header {
+    border-bottom: 1px solid #e7e9fc;
+
+}
+
+.first-part {
+    width: 1158px;
+    margin: 0;
+    padding: 0.15px 0.15px 0.15px 0.15px;
+}
 ul{
     list-style: none;
     text-decoration: none;
@@ -211,12 +220,3 @@ body {
     background-color: #ffffff;
 }
 
-.top{
-    border-bottom: 1px solid #e7e9fc;
-    
-}
-.hdiv-container{
-width: 1158px;
-margin: 0;
-padding: 0.15px 0.15px 0.15px 0.15px;
-}
