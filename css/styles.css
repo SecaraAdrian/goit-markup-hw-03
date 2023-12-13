@@ -79,7 +79,6 @@ color: var(--NAVY-BLUE);
 }
 
 .address-link {
-    padding: 24px 0 24px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE);
@@ -99,6 +98,9 @@ color: var(--NAVY-BLUE);
     color: #ffffff;
 } 
 /*buttons section*/
+.navigation-link{
+    padding: 24px 0 24px 0;
+}
 .navigation-list{
     display: flex;
     gap: 40px;
