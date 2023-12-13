@@ -7,6 +7,7 @@
         --OCEAN: #404BBF;
 }
 .logo {
+    margin-right: 76px;
     color: var(--IRIS);         
         font-size: 18px;
         font-family: "Raleway", sans-serif;
@@ -31,12 +32,16 @@
 }
 .container{
     width: 1158px;
+    margin: 0;
+    padding: 0.15px;
 }
 .header-container{
     display: flex;
-    margin: 0;
-    padding: 0.15px;
-
+}
+.main-navigation-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
 }
 ul{
     list-style: none;
@@ -154,6 +159,7 @@ body {
     background-color:var(--WHITE);
 }
 .nav-link {
+    margin: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
