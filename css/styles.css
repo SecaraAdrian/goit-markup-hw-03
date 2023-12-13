@@ -224,17 +224,16 @@ body {
         text-transform: capitalize;
         color: var(--NAVY-BLUE)
  }
- .visually-hidden{
-            border: 0;
-            clip: rect(0 0 0 0);
-            height: auto;
-            margin: 0;
-            overflow: hidden;
-            padding: 0;
-            position: absolute;
-            width: 1px;
-            white-space: nowrap;
-        }
+ .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     padding: 0;
+     overflow: hidden;
+     clip: rect(0, 0, 0, 0);
+     border: 0;
+ }
  .phara {
     line-height: 1.5;
     letter-spacing: 0.02em;
