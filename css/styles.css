@@ -75,8 +75,6 @@ font-weight: 500;
 color: var(--NAVY-BLUE);
 }
 .address-container {
-    padding-top: 24px;
-    padding-bottom: 24px;
     font-style: normal;
 }
 
@@ -177,6 +175,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 .nav-link:hover {
     color: #404bbf;
