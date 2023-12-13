@@ -99,6 +99,16 @@ color: var(--NAVY-BLUE);
     color: #ffffff;
 } 
 /*buttons section*/
+.porto-section{
+    padding: 96px;
+    padding-bottom: 120px;
+}
+.porto-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 .navigation-list{
     display: flex;
     gap: 40px;
@@ -113,16 +123,21 @@ color: var(--NAVY-BLUE);
     color: var(--IRIS);
     background-color: #f4f4fd;
     cursor: pointer;
+    border:1px solid #e7e9fc;
+    border-radius: 4px;
+
 }
 
 .navi-menu:hover {
     color: #fff;
     background-color: #404bbf;
+    border: 1px solid transparent;
 }
 
 .navi-menu:focus {
     color: #fff;
     background-color: #404bbf;
+    border: 1px transparent;
 }
 
 /*Button - first section*/
