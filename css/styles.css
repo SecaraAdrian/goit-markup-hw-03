@@ -100,7 +100,7 @@ color: var(--NAVY-BLUE);
 } 
 /*buttons section*/
 .porto-section{
-    padding: 96px;
+    padding-top: 96px;
     padding-bottom: 120px;
 }
 .porto-list{
@@ -125,6 +125,7 @@ color: var(--NAVY-BLUE);
     cursor: pointer;
     border:1px solid #e7e9fc;
     border-radius: 4px;
+    padding: 12px 24px;
 
 }
 
@@ -137,7 +138,7 @@ color: var(--NAVY-BLUE);
 .navi-menu:focus {
     color: #fff;
     background-color: #404bbf;
-    border: 1px transparent;
+    border: 1px solid transparent;
 }
 
 /*Button - first section*/
