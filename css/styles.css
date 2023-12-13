@@ -57,6 +57,7 @@ ul{
 }
 .link{
     text-decoration: none;
+    padding: 24px;
     
 }
 .link:hover{
@@ -65,9 +66,11 @@ ul{
 .link:focus{
     color: #404bbf;
 }
-.list{
+.address-list{
     display: flex;
     gap: 40px;
+}
+.list{
     list-style: none;
 font-weight: 500;
 color: var(--NAVY-BLUE);
