@@ -164,9 +164,10 @@ color: var(--NAVY-BLUE);
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding: 0;
 }
 .aspect-image{
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .container-elements {
