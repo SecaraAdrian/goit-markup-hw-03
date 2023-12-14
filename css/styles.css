@@ -5,6 +5,7 @@
         --SLATE: #434455;
         --CLOUD: #F4F4FD;
         --OCEAN: #404BBF;
+        --cornflower:#e7e9fc;
 }
 .logo {
     margin-right: 76px;
@@ -55,8 +56,10 @@ ul{
     background-color: var(--WHITE);
 
 }
-.link{
+.link {
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
     
 }
 .link:hover{
@@ -170,18 +173,13 @@ color: var(--NAVY-BLUE);
     flex-basis: calc((100% - 48px) / 3);
 }
 
-.container-elements {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
 .button:hover,
 .button:focus {
     background-color: #404bbf;
 }
 .container-elements{
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--cornflower);
     border-top: none;
 }
 .portfolio-titles{
