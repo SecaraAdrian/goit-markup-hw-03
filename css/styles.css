@@ -179,6 +179,11 @@ color: var(--NAVY-BLUE);
 .button:focus {
     background-color: #404bbf;
 }
+.container-elements{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
 /*section 2*/
 .list-section{
