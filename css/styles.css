@@ -184,6 +184,9 @@ color: var(--NAVY-BLUE);
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+.portfolio-titles{
+    margin-bottom: 8px;
+}
 
 /*section 2*/
 .list-section{
