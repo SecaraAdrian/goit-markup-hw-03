@@ -189,7 +189,9 @@ color: var(--NAVY-BLUE);
 .lis-section:first-child {
     width: calc((100% - 72px) / 4);
 }
-
+.first-list-item{
+            width: calc((100% - 72px) / 4);
+}
 .button:hover,
 .button:focus {
     background-color: #404bbf;
