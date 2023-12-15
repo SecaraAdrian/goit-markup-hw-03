@@ -186,6 +186,9 @@ color: var(--NAVY-BLUE);
 .aspect-image{
     flex-basis: calc((100% - 48px) / 3);
 }
+.lis-section:first-child {
+    width: calc((100% - 72px) / 4);
+}
 
 .button:hover,
 .button:focus {
@@ -204,9 +207,6 @@ color: var(--NAVY-BLUE);
 .list-section{
     display: flex;
     gap: 24px;
-}
-.lis-section{
-    flex-basis: calc((100% - 72px) / 4);
 }
 .two-section{
     padding: 120px 0;
