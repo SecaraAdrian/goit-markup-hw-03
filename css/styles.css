@@ -78,6 +78,7 @@ ul{
     display: flex;
     gap: 40px;
 }
+
 .list{
     list-style: none;
 font-weight: 500;
@@ -101,6 +102,7 @@ color: var(--NAVY-BLUE);
     padding: 188px 0 188px;
 
 }
+
 .hero-container{
     display: flex;
         flex-direction: column;
@@ -176,6 +178,7 @@ color: var(--NAVY-BLUE);
     border:none;
     border-radius: 4px;
 }
+
 .image-section{
     display: flex;
     flex-wrap: wrap;
@@ -203,6 +206,10 @@ color: var(--NAVY-BLUE);
 .list-section{
     display: flex;
     gap: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.lis-section{
+
 }
 .two-section{
     padding: 120px 0;
