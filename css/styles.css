@@ -186,11 +186,8 @@ color: var(--NAVY-BLUE);
 .aspect-image{
     flex-basis: calc((100% - 48px) / 3);
 }
-.lis-section:first-child {
-    width: calc((100% - 72px) / 4);
-}
-.first-list-item{
-            width: calc((100% - 72px) / 4);
+.lis-section{
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .button:hover,
 .button:focus {
