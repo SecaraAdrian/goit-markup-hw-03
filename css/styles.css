@@ -142,7 +142,6 @@ color: var(--NAVY-BLUE);
     color: var(--IRIS);
     background-color: #f4f4fd;
     cursor: pointer;
-    width: calc((100% - 48px) / 3);
     padding: 12px 24px;
     border-radius: 4px;
     border: 1px solid #e7e9fc;
