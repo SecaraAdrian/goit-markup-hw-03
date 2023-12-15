@@ -98,6 +98,13 @@ color: var(--NAVY-BLUE);
 .hero {
     background-color: var(--NAVY-BLUE);
     padding: 188px 0 188px;
+
+}
+.hero-container{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 }
 .aparence{
     font-size: 56px;
