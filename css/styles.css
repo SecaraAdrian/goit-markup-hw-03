@@ -186,9 +186,6 @@ color: var(--NAVY-BLUE);
 .aspect-image{
     flex-basis: calc((100% - 48px) / 3);
 }
-.lis-section{
-    width: calc((100% - 3 * 24px) / 4);
-}
 .button:hover,
 .button:focus {
     background-color: #404bbf;
