@@ -7,6 +7,9 @@
         --OCEAN: #404BBF;
         --cornflower:#e7e9fc;
 }
+img{
+    display: block;
+}
 .logo {
     margin-right: 76px;
     color: var(--IRIS);         
