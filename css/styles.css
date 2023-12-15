@@ -16,7 +16,9 @@
         text-transform: uppercase;
         line-height: 1.17;
         text-decoration: none; 
-        letter-spacing: 0.03em
+        letter-spacing: 0.03em;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .part-of-logo {
@@ -214,6 +216,7 @@ a{
     background-color: var(--NAVY-BLUE);
     font-family: 'Raleway', sans-serif;
     line-height: 1.17;
+    padding:100px 0;
 }
  .logo-footer-p {
      color: #f4f4fd;
@@ -326,6 +329,7 @@ body {
     line-height: 1.5;
     color:var(--CLOUD);
     letter-spacing: 0.02em;
+    max-width: 264px;
  }
 .team {
     background-color: #ffffff;
