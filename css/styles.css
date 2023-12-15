@@ -304,6 +304,11 @@ body {
  /* index section four */
  .section-four-container {
     background-color: #f4f4fd;
+    padding: 120px 0;
+ }
+ .four{
+    display: flex;
+    gap: 24px;
  }
  .name{
     background-color: #ffffff;
