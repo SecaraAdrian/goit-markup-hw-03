@@ -206,7 +206,7 @@ color: var(--NAVY-BLUE);
     gap: 24px;
 }
 .lis-section{
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .two-section{
     padding: 120px 0;
