@@ -80,11 +80,13 @@ ul{
     display: flex;
     gap: 40px;
 } */
-
+.two-sect{
+    gap: 24px;
+}
 .list {
     list-style: none;
     display: flex;
-    /* gap: 40px; */
+    gap: 40px;
     padding: 0;
 }
 .address-container {
