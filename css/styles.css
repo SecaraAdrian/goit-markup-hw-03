@@ -136,8 +136,11 @@ ul{
     margin-bottom: 72px;
 }
 .navigation-list{
-    display: flex;
-    gap: 40px;
+    font-style: normal;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 40;
 
 }
 .navi-menu {
