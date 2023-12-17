@@ -80,9 +80,7 @@ ul{
     display: flex;
     gap: 40px;
 } */
-.two-sect{
-    gap: 24px;
-}
+
 .list {
     list-style: none;
     display: flex;
@@ -94,7 +92,7 @@ ul{
     list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 40;
+    gap: 24px;
 }
 
 .address-link {
