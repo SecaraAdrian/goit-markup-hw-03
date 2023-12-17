@@ -298,6 +298,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--SLATE);
  }
+ .p-team {
+     text-align: center;
+ }
  /* index section three */
  .list-image {
      display: flex;
