@@ -80,13 +80,13 @@ ul{
     display: flex;
     gap: 40px;
 }
-/* .list li {
+.list li {
     margin-right: 40px;
 }
 
 .list li:last-child {
     margin-right: 0;
-} */
+}
 
 .list {
     list-style: none;
