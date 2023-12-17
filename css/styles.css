@@ -76,10 +76,17 @@ ul{
 .link:focus{
     color: #404bbf;
 }
-/* .address-list{
+.address-list{
     display: flex;
     gap: 40px;
-} */
+}
+.list li {
+    margin-right: 40px;
+}
+
+.list li:last-child {
+    margin-right: 0;
+}
 
 .list {
     list-style: none;
