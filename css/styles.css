@@ -89,6 +89,10 @@ ul{
 }
 .address-container {
     font-style: normal;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 40;
 }
 
 .address-link {
