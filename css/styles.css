@@ -84,7 +84,7 @@ ul{
 .list {
     list-style: none;
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
     padding: 0;
 }
 .address-container {
