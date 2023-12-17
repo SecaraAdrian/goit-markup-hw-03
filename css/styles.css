@@ -76,15 +76,15 @@ ul{
 .link:focus{
     color: #404bbf;
 }
-.address-list{
+/* .address-list{
     display: flex;
     gap: 40px;
-}
+} */
 
 .list {
     list-style: none;
     display: flex;
-    gap: 24px;
+    gap: 40px;
     padding: 0;
 }
 .address-container {
